@@ -1,0 +1,1 @@
+http://localhost/upload/install/index.php?route=install/step_4

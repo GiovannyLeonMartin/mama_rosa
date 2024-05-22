@@ -1,0 +1,94 @@
+*{
+  padding: 0;
+  margin: 0;
+
+}
+body{
+background-image: url("../img/fondo.jpg");
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+
+
+}
+header{
+
+  width: 100%;
+  max-width: 1000px;
+  margin: 20px auto;
+}
+h1{
+  text-align:center;
+  font-size: 70px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px #BDE879;
+}
+h1 .eduardo{
+  text-align:center;
+  font-size: 80px;
+  text-transform: uppercase;
+  text-shadow: 10px 10px #BDE879;
+  width: 100%;
+}
+.promo{
+
+width: 100%;
+margin: auto;
+}
+section , aside{
+  background:rgba(229,253,225,30%);
+  width: 100%;
+  max-width: 1000px;
+  margin: 150px auto;
+}
+
+header nav{
+  background: rgba(209,236,238,50%);
+    overflow: hidden;
+    box-shadow: 0px 2PX #7EA5A8;
+}
+header nav ul{
+  list-style:none;
+}
+header nav ul li{
+  float: left;
+}
+header nav ul li a{
+  padding: 10px 20px;
+  display: block;
+  color:black ;
+  text-decoration: none;
+}
+header nav ul li a:hover{
+  background: #FFE2B0;
+  color: black;
+}
+.cuerpo{
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  padding: 10px;
+  width: 95%;
+  background: rgba(249,203,248,60%);
+}
+.n-2{
+  text-align: center;
+}
+
+.contenedor {
+  position: relative;
+  height: 290px;
+  width: 290px;
+  margin: 50px 20px;
+  float: left;
+}
+
+.contenedor img {
+  position: absolute;
+  left: 0;
+  transition: opacity 1.5s ease-in-out;
+}
+
+.contenedor img.top:hover {
+  opacity: 0;
+}

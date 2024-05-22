@@ -1,0 +1,146 @@
+*{
+  padding: 0;
+  margin: 0;
+
+}
+body{
+background-image: url("../img/fondo.jpg");
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+
+
+}
+header{
+
+  width: 100%;
+  max-width: 1000px;
+  margin: 5px auto;
+}
+h1{
+  text-align:center;
+  font-size: 70px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px #BDE879;
+}
+h1 .eduardo{
+  text-align:center;
+  font-size: 80px;
+  text-transform: uppercase;
+  text-shadow: 10px 10px #BDE879;
+  width: 100%;
+}
+.promo{
+
+width: 100%;
+margin: auto;
+}
+section , aside{
+  background:rgba(229,253,225,30%);
+  width: 100%;
+  max-width: 1000px;
+  margin: 150px auto;
+}
+
+header nav{
+  background: rgba(209,236,238,50%);
+    overflow: hidden;
+    box-shadow: 0px 2PX #7EA5A8;
+}
+header nav ul{
+  list-style:none;
+}
+header nav ul li{
+  float: left;
+}
+header nav ul li a{
+  padding: 10px 20px;
+  display: block;
+  color:black ;
+  text-decoration: none;
+}
+header nav ul li a:hover{
+  background: #FFE2B0;
+  color: black;
+}
+.cuerpo{
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  padding: 10px;
+  width: 95%;
+  background: rgba(249,203,248,60%);
+}
+.n-2{
+  text-align: center;
+}
+.pie{
+  padding-top: 0px;
+  background: black;
+  text-align: center;
+  height: 60px;
+}
+form{
+
+  background: rgba(201,249,255,50%);
+  width: 90%;
+  border: 1px solid #ccc;
+  margin: 20px;
+  padding: 20px;
+
+}
+textarea{
+    background:rgba(254,227,253,90%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  resize:vertical;
+  max-height: 300px;
+  min-height: 80px;
+}
+.nota{
+  font-size: 15px;
+  background: #F26474;
+  width: 50%;
+  text-align: center;
+}
+
+
+
+label{
+  font-size: 12px;
+  display: block;
+  width: 100%;
+
+}
+input , textarea{
+  margin-bottom: 20px;
+  width: 50%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+}
+input:focus , textarea:focus{
+  border: 2px solid #FA4CAC;
+}
+input[type="submit"]{
+  margin-bottom: 0px;
+  background: #CBFFFF;
+  border: none;
+  border-radius: 10px;
+}
+
+input[type="submit"]:hover{
+  background: #21FFFF;
+  cursor: pointer;
+}
+h2{
+  text-align: center;
+  font-size: 80px;
+}
+.formulario{
+  padding-left:0px;
+}
+/*/////////////////////////////////////////////////////////////*/
+.resultado{
+  font-size: "100px";
+}
